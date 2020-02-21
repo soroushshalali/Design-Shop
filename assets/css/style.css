@@ -1,0 +1,182 @@
+body{
+    margin: 0 10%;
+    padding: 0;
+    font-family: Karla;
+
+}
+header{ 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.menu{
+    text-align: right;
+    width: 50%;
+}
+.menu > ul{
+ margin: 0;   
+
+}
+.menu > ul >li{
+    display: inline;
+    margin-left: 5%;
+}
+.menu > ul >li > a{
+    text-decoration: none;
+    color:#323A45 ;
+}
+.menu > ul >li > a:hover{
+    
+    color:#848484;
+}
+.logo > a{
+    text-decoration: none;
+    color:#323A45 ;
+}
+.logo > a:hover{
+    color:#848484;
+}
+main{
+    
+    margin: 1px auto;
+}
+.secproduct1{
+    width: 100%;
+    margin-bottom: 5vh;
+    
+}
+.secproduct1 > div > a > img {
+    width: 100%;
+}
+.secproduct1 > div > a > img:hover{
+    opacity: 0.7;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.details > div{
+    
+}
+.details > div > h4{
+    color:#323A45 ;
+}
+.details > div > h5{
+    color:#848484;
+}
+.details > h2{
+    color:#323A45 ;
+}
+.secproduct3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 3%;
+}
+.secproduct3-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 3%;
+}
+.copyright span {
+    font-size: 3em;
+}
+footer a {
+    font-size: large;
+    text-decoration: none;
+    color: #323A45;
+}
+footer span {
+    font-weight: bold;
+}
+footer p {
+    font-size: 1.1em;
+    width: 80%;
+    color: #323A45;
+}
+footer {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: grid;
+    grid-template-columns: 34% repeat(3, 1fr);
+}
+footer h3 {
+    padding-bottom: 5vh;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #323A45;
+}
+.it{
+    font-style: italic;
+}
+.copyright {
+    font-size: 0.8em;
+    color: #848484;
+    font-weight: lighter;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .secproduct3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 1%;
+    }
+    .secproduct1{
+        width: 100%;
+        margin-top: 5vh;
+        
+    }
+
+    .details > h2{
+        color:#323A45 ;
+        font-weight: 200;
+        font-size: smaller;
+
+    }
+
+    .details > div > h4{
+        color:#323A45 ;
+        font-weight: 500;
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+    }
+    .details > div > h5{
+        color:#848484;
+        margin-top: 0;
+    }
+
+    body{
+        margin: 0 5%;    
+    }
+
+    .menu{
+        width: 40%;
+        font-size: smaller;
+    }
+
+
+
+    footer {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
