@@ -154,7 +154,10 @@ footer h3 {
     }
 
     body{
-        margin: 0    
+        margin: 0 ;
+        padding-left:3% ;  
+        padding-right:3% ;  
+         
     }
 
     .menu{
@@ -194,9 +197,6 @@ footer h3 {
         width: 100%;
     }
 
-    body{
-        font-family:Helvetica,Arial;
-      }
       header{ 
         display: flex;
         flex-direction: column;
